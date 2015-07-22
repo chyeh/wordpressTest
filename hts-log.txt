@@ -1,106 +1,155 @@
-HTTrack3.48-1+libhtsjava.so.2 launched on Tue, 21 Jul 2015 22:38:51 at http://192.168.93.146/wordpress/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/*
-(webhttrack -q -%i -w http://192.168.93.146/wordpress/ -O "/home/a111/skncic/wpcp/tmp" -n -t -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2013], %s -->" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+HTTrack3.48-1+libhtsjava.so.2 launched on Tue, 21 Jul 2015 23:35:13 at http://localhost/wordpress/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://localhost/wordpress/ -O "/home/a111/skncic/wpcp/tmp2" -n -t -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2013], %s -->" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-22:39:33	Error: 	"Not Found" (404) at link localhost/wordpress/?feed=comments-rss2 (from 192.168.93.146/wordpress/)
-22:39:34	Warning: 	Warning: store text/html without scan: /home/a111/skncic/wpcp/tmp/gmpg.org/xfn/.html
-22:39:34	Warning: 	Warning: store text/html without scan: /home/a111/skncic/wpcp/tmp/gmpg.org/xfn/intro.html
-22:39:34	Warning: 	Warning: store text/html without scan: /home/a111/skncic/wpcp/tmp/gmpg.org/xfn/faq.html
-22:39:48	Warning: 	Found for localhost/wordpress/wp-admin/
-22:39:48	Warning: 	File has moved from localhost/wordpress/wp-admin/ to http://localhost/wordpress/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fwordpress%2Fwp-admin%2F&reauth=1
-22:40:13	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/page-layout-builder.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/)
-22:40:23	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/darkly/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
-22:40:23	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/default/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
-22:40:23	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/united/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
-22:40:23	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/yeti/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
-22:40:29	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/frames/dynamic.frame.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/frames/)
-22:40:38	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/core.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
-22:40:38	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/layout-selector.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
-22:40:39	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/metabox.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
-22:40:39	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/theme-options.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
-22:40:42	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): localhost/wordpress/wp-content/plugins/page-layout-builder/modules/content-box/content-box.php
-22:40:44	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): localhost/wordpress/wp-content/plugins/page-layout-builder/modules/heading/heading.php
-22:40:45	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): localhost/wordpress/wp-content/plugins/page-layout-builder/modules/latest-fbfeeds/latest-fbfeeds.php
-22:40:48	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): localhost/wordpress/wp-content/plugins/page-layout-builder/modules/separator/separator.php
-22:40:49	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subscribe/subscribe.php
-22:40:50	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/page-layout-builder.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/)
-22:40:54	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/darkly/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
-22:40:54	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/default/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
-22:40:54	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/united/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
-22:40:54	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/yeti/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
-22:40:58	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/frames/dynamic.frame.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/frames/)
-22:41:00	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/core.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
-22:41:00	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/layout-selector.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
-22:41:00	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/metabox.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
-22:41:00	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/theme-options.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
-22:41:01	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/dynamic.layout.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/)
-22:41:02	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/accordion/accordion.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/accordion/)
-22:41:05	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/csstabs/csstabs.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/csstabs/)
-22:41:08	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/image/image.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/image/)
-22:41:12	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/richtext/richtext.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/richtext/)
-22:41:17	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/)
-22:41:19	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/page-layout-builder.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/)
-22:41:21	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/darkly/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
-22:41:21	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/default/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
-22:41:21	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/united/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
-22:41:21	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/yeti/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
-22:41:28	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/frames/dynamic.frame.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/frames/)
-22:41:29	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/core.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
-22:41:29	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/layout-selector.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
-22:41:29	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/metabox.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
-22:41:29	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/theme-options.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
-22:41:30	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/dynamic.layout.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/)
-22:41:30	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/accordion/accordion.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/accordion/)
-22:41:32	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/csstabs/csstabs.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/csstabs/)
-22:41:35	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/image/image.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/image/)
-22:41:39	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/richtext/richtext.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/richtext/)
-22:41:39	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/)
-22:41:39	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/dynamic.layout.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/)
-22:41:39	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/accordion/accordion.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/accordion/)
-22:41:39	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/csstabs/csstabs.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/csstabs/)
-22:41:39	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/image/image.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/image/)
-22:41:39	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/richtext/richtext.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/richtext/)
-22:41:39	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/)
-22:41:40	Warning: 	HTML file (850 bytes) retransferred due to lack of cache: localhost/wordpress/?feed=comments-rss2
-22:41:40	Error: 	"Not Found" (404) at link localhost/wordpress/?feed=comments-rss2 (from 192.168.93.146/wordpress/)
-22:41:56	Warning: 	HTML file (28976 bytes) retransferred due to lack of cache: localhost/wordpress/
-22:42:02	Warning: 	Warning: store text/css without scan: /home/a111/skncic/wpcp/tmp/gmpg.org/xfn/default.css
-22:42:02	Warning: 	HTML file (0 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/
-22:42:03	Warning: 	HTML file (0 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/page-layout-builder.php
-22:42:03	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/page-layout-builder.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/)
-22:42:03	Warning: 	HTML file (1621 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/theme-data/
-22:42:05	Warning: 	HTML file (5759 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/images/icons/
-22:42:06	Warning: 	HTML file (3673 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/includes/?C=N;O=D
-22:42:06	Warning: 	HTML file (1625 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/?C=N;O=D
-22:42:08	Warning: 	HTML file (2043 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/?C=N;O=A
-22:42:09	Warning: 	HTML file (1657 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/js/?C=N;O=D
-22:42:09	Warning: 	HTML file (1393 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/cache/?C=N;O=A
-22:42:09	Warning: 	HTML file (2273 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/css/jqui/?C=N;O=D
-22:42:10	Warning: 	HTML file (13153 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/images/?C=N;O=A
-22:42:10	Warning: 	HTML file (3673 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/includes/?C=N;O=A
-22:42:11	Warning: 	HTML file (2393 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/css/jqui/js/?C=N;O=D
-22:42:11	Warning: 	HTML file (1889 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/css/jqui/theme/?C=N;O=D
-22:42:14	Warning: 	HTML file (0 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php
-22:42:14	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/)
-22:42:15	Warning: 	HTML file (77 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/dynamic.layout.php
-22:42:15	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/dynamic.layout.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/)
-22:42:15	Warning: 	File not parsed, looks like binary: localhost/wordpress/wp-content/plugins/foobox-image-lightbox/css/font/foobox.ttf
-22:42:16	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/fonts/glyphicons-halflings-regular.svg (from localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/css/bootstrap.css?ver=3.9)
-22:42:17	Warning: 	HTML file (0 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/page-layout-builder.php
-22:42:17	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/page-layout-builder.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/)
-22:42:17	Warning: 	HTML file (0 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php
-22:42:17	Warning: 	HTML file (0 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/page-layout-builder.php
-22:42:18	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/fonts/glyphicons-halflings-regular.eot (from localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/css/bootstrap.css)
-22:42:18	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/fonts/glyphicons-halflings-regular.eot? (from localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/css/bootstrap.css)
-22:42:18	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/fonts/glyphicons-halflings-regular.woff (from localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/css/bootstrap.css)
-22:42:18	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/fonts/glyphicons-halflings-regular.ttf (from localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/css/bootstrap.css)
-22:42:18	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/page-layout-builder/css/jqui/theme/images/fallback_moduleHeader.png (from localhost/wordpress/wp-content/plugins/page-layout-builder/css/jqui/theme/jquery-ui.css)
-22:42:18	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/)
-22:42:18	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/page-layout-builder.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/)
+23:35:48	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2067): gmpg.org/xfn/default.css
+23:36:02	Error: 	"Not Found" (404) at link localhost/wordpress/?feed=comments-rss2 (from localhost/wordpress/)
+23:36:17	Warning: 	Found for localhost/wordpress/wp-admin/
+23:36:17	Warning: 	File has moved from localhost/wordpress/wp-admin/ to http://localhost/wordpress/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fwordpress%2Fwp-admin%2F&reauth=1
+23:36:31	Warning: 	Warning: store text/html without scan: /home/a111/skncic/wpcp/tmp2/gmpg.org/xfn/.html
+23:36:31	Warning: 	Warning: store text/html without scan: /home/a111/skncic/wpcp/tmp2/gmpg.org/xfn/intro.html
+23:36:32	Warning: 	Warning: store text/html without scan: /home/a111/skncic/wpcp/tmp2/gmpg.org/xfn/faq.html
+23:36:57	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/page-layout-builder.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/)
+23:37:06	Warning: 	Moved Permanently for localhost/wordpress/?p=29
+23:37:06	Warning: 	File has moved from localhost/wordpress/?p=29 to http://localhost/wordpress/?page_id=29
+23:37:07	Warning: 	Moved Permanently for localhost/wordpress/?p=31
+23:37:07	Warning: 	File has moved from localhost/wordpress/?p=31 to http://localhost/wordpress/?page_id=31
+23:37:08	Warning: 	Moved Permanently for localhost/wordpress/?p=33
+23:37:08	Warning: 	File has moved from localhost/wordpress/?p=33 to http://localhost/wordpress/?page_id=33
+23:37:08	Warning: 	Moved Permanently for localhost/wordpress/?p=37
+23:37:08	Warning: 	File has moved from localhost/wordpress/?p=37 to http://localhost/wordpress/?page_id=37
+23:37:08	Warning: 	Moved Permanently for localhost/wordpress/?p=39
+23:37:08	Warning: 	File has moved from localhost/wordpress/?p=39 to http://localhost/wordpress/?page_id=39
+23:37:08	Warning: 	Moved Permanently for localhost/wordpress/?p=27
+23:37:08	Warning: 	File has moved from localhost/wordpress/?p=27 to http://localhost/wordpress/?page_id=27
+23:37:08	Warning: 	Moved Permanently for localhost/wordpress/?p=35
+23:37:08	Warning: 	File has moved from localhost/wordpress/?p=35 to http://localhost/wordpress/?page_id=35
+23:37:08	Warning: 	Moved Permanently for localhost/wordpress/?p=21
+23:37:08	Warning: 	File has moved from localhost/wordpress/?p=21 to http://localhost/wordpress/?page_id=21
+23:37:08	Warning: 	Moved Permanently for localhost/wordpress/?p=19
+23:37:08	Warning: 	File has moved from localhost/wordpress/?p=19 to http://localhost/wordpress/?page_id=19
+23:37:09	Warning: 	Moved Permanently for localhost/wordpress/?p=295
+23:37:09	Warning: 	File has moved from localhost/wordpress/?p=295 to http://localhost/wordpress/?page_id=295
+23:37:09	Warning: 	Moved Permanently for localhost/wordpress/?p=23
+23:37:09	Warning: 	File has moved from localhost/wordpress/?p=23 to http://localhost/wordpress/?page_id=23
+23:37:17	Warning: 	Moved Permanently for localhost/wordpress/?p=297
+23:37:17	Warning: 	File has moved from localhost/wordpress/?p=297 to http://localhost/wordpress/?page_id=297
+23:37:18	Warning: 	Retry after error -4 (No data (connection closed)) at link localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/?C=M;O=A (from localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/)
+23:37:22	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/darkly/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
+23:37:22	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/default/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
+23:37:22	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/united/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
+23:37:22	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/yeti/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
+23:37:27	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/frames/dynamic.frame.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/frames/)
+23:37:36	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/core.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
+23:37:36	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/layout-selector.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
+23:37:36	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/metabox.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
+23:37:37	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/theme-options.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
+23:37:43	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): localhost/wordpress/wp-content/plugins/page-layout-builder/modules/latest-fbfeeds/latest-fbfeeds.php
+23:37:44	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): localhost/wordpress/wp-content/plugins/page-layout-builder/modules/progressbar/progressbar.php
+23:37:45	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): localhost/wordpress/wp-content/plugins/page-layout-builder/modules/separator/separator.php
+23:37:45	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): localhost/wordpress/wp-content/plugins/page-layout-builder/modules/shortcode/shortcode.php
+23:37:46	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subscribe/subscribe.php
+23:37:47	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/page-layout-builder.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/)
+23:37:49	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/pdfjs-viewer-shortcode/web/locale/locale.properties (from localhost/wordpress/wp-content/plugins/pdfjs-viewer-shortcode/web/viewer.php?file=http://localhost/wordpress/wp-content/uploads/2014/10/CIC-2013-Annual-Report.pdf&download=true&print=true&openfile=false)
+23:37:51	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/darkly/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
+23:37:51	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/default/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
+23:37:52	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/united/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
+23:37:52	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/yeti/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
+23:37:56	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/frames/dynamic.frame.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/frames/)
+23:37:58	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/core.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
+23:37:58	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/layout-selector.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
+23:37:58	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/metabox.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
+23:37:58	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/theme-options.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
+23:37:59	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/dynamic.layout.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/)
+23:38:00	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/accordion/accordion.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/accordion/)
+23:38:03	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/csstabs/csstabs.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/csstabs/)
+23:38:06	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/image/image.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/image/)
+23:38:10	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/richtext/richtext.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/richtext/)
+23:38:15	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/)
+23:38:16	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/page-layout-builder.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/)
+23:38:18	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/darkly/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
+23:38:18	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/default/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
+23:38:18	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/united/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
+23:38:18	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/yeti/ (from localhost/wordpress/wp-content/plugins/page-layout-builder/canvas/)
+23:38:25	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/frames/dynamic.frame.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/frames/)
+23:38:26	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/core.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
+23:38:26	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/layout-selector.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
+23:38:26	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/metabox.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
+23:38:27	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/includes/theme-options.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/includes/)
+23:38:27	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/dynamic.layout.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/)
+23:38:27	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/accordion/accordion.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/accordion/)
+23:38:30	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/csstabs/csstabs.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/csstabs/)
+23:38:32	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/image/image.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/image/)
+23:38:35	Warning: 	Retry after error 500 () at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/richtext/richtext.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/richtext/)
+23:38:35	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/)
+23:38:35	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/dynamic.layout.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/bootstrap/)
+23:38:35	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/accordion/accordion.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/accordion/)
+23:38:35	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/csstabs/csstabs.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/csstabs/)
+23:38:35	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/image/image.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/image/)
+23:38:35	Error: 	"" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/richtext/richtext.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/richtext/)
+23:38:35	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/)
+23:38:35	Warning: 	HTML file (850 bytes) retransferred due to lack of cache: localhost/wordpress/?feed=comments-rss2
+23:38:36	Error: 	"Not Found" (404) at link localhost/wordpress/?feed=comments-rss2 (from localhost/wordpress/)
+23:39:01	Warning: 	HTML file (21337 bytes) retransferred due to lack of cache: localhost/wordpress/?page_id=29
+23:39:06	Warning: 	Warning: store text/css without scan: /home/a111/skncic/wpcp/tmp2/gmpg.org/xfn/default.css
+23:39:06	Warning: 	HTML file (5074 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/?C=N;O=D
+23:39:07	Warning: 	HTML file (0 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/
+23:39:07	Warning: 	HTML file (2027 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/
+23:39:07	Warning: 	HTML file (1621 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/theme-data/
+23:39:07	Warning: 	HTML file (717 bytes) retransferred due to lack of cache: localhost/wordpress/?p=33
+23:39:08	Warning: 	Moved Permanently for localhost/wordpress/?p=33
+23:39:08	Warning: 	File has moved from localhost/wordpress/?p=33 to http://localhost/wordpress/?page_id=33
+23:39:08	Warning: 	HTML file (717 bytes) retransferred due to lack of cache: localhost/wordpress/?p=37
+23:39:08	Warning: 	Moved Permanently for localhost/wordpress/?p=37
+23:39:08	Warning: 	File has moved from localhost/wordpress/?p=37 to http://localhost/wordpress/?page_id=37
+23:39:08	Warning: 	HTML file (717 bytes) retransferred due to lack of cache: localhost/wordpress/?p=39
+23:39:08	Warning: 	Moved Permanently for localhost/wordpress/?p=39
+23:39:08	Warning: 	File has moved from localhost/wordpress/?p=39 to http://localhost/wordpress/?page_id=39
+23:39:08	Warning: 	HTML file (717 bytes) retransferred due to lack of cache: localhost/wordpress/?p=35
+23:39:09	Warning: 	Moved Permanently for localhost/wordpress/?p=35
+23:39:09	Warning: 	File has moved from localhost/wordpress/?p=35 to http://localhost/wordpress/?page_id=35
+23:39:09	Warning: 	HTML file (700 bytes) retransferred due to lack of cache: localhost/wordpress/?feed=rss2&page_id=295
+23:39:10	Warning: 	HTML file (717 bytes) retransferred due to lack of cache: localhost/wordpress/?p=19
+23:39:10	Warning: 	Moved Permanently for localhost/wordpress/?p=19
+23:39:10	Warning: 	File has moved from localhost/wordpress/?p=19 to http://localhost/wordpress/?page_id=19
+23:39:10	Warning: 	HTML file (721 bytes) retransferred due to lack of cache: localhost/wordpress/?p=295
+23:39:10	Warning: 	HTML file (700 bytes) retransferred due to lack of cache: localhost/wordpress/?feed=rss2&page_id=297
+23:39:11	Warning: 	Moved Permanently for localhost/wordpress/?p=295
+23:39:11	Warning: 	File has moved from localhost/wordpress/?p=295 to http://localhost/wordpress/?page_id=295
+23:39:11	Warning: 	HTML file (721 bytes) retransferred due to lack of cache: localhost/wordpress/?p=297
+23:39:11	Warning: 	Moved Permanently for localhost/wordpress/?p=297
+23:39:11	Warning: 	File has moved from localhost/wordpress/?p=297 to http://localhost/wordpress/?page_id=297
+23:39:12	Warning: 	HTML file (5759 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/images/icons/
+23:39:12	Warning: 	HTML file (3673 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/includes/?C=N;O=D
+23:39:13	Warning: 	HTML file (1625 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/layouts/?C=N;O=D
+23:39:13	Warning: 	HTML file (692 bytes) retransferred due to lack of cache: localhost/wordpress/?feed=rss2&p=153
+23:39:13	Warning: 	HTML file (721 bytes) retransferred due to lack of cache: localhost/wordpress/?feed=rss2&p=80
+23:39:14	Warning: 	HTML file (731 bytes) retransferred due to lack of cache: localhost/wordpress/?feed=rss2&p=76
+23:39:22	Warning: 	HTML file (2043 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/?C=N;O=A
+23:39:22	Warning: 	HTML file (1657 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/js/?C=N;O=D
+23:39:22	Warning: 	HTML file (1393 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/cache/?C=N;O=A
+23:39:22	Warning: 	HTML file (2273 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/css/jqui/?C=N;O=D
+23:39:23	Warning: 	HTML file (13153 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/images/?C=N;O=A
+23:39:24	Warning: 	HTML file (3673 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/includes/?C=N;O=A
+23:39:24	Warning: 	HTML file (2393 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/css/jqui/js/?C=N;O=D
+23:39:25	Warning: 	HTML file (1889 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/css/jqui/theme/?C=N;O=D
+23:39:27	Warning: 	HTML file (0 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php
+23:39:27	Warning: 	Retry after error 500 (Internal Server Error) at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/)
+23:39:28	Warning: 	File not parsed, looks like binary: localhost/wordpress/wp-content/plugins/foobox-image-lightbox/css/font/foobox.ttf
+23:39:29	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/fonts/glyphicons-halflings-regular.eot (from localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/css/bootstrap.css?ver=3.9)
+23:39:29	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/fonts/glyphicons-halflings-regular.eot? (from localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/css/bootstrap.css?ver=3.9)
+23:39:29	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/fonts/glyphicons-halflings-regular.woff (from localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/css/bootstrap.css?ver=3.9)
+23:39:29	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/fonts/glyphicons-halflings-regular.ttf (from localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/css/bootstrap.css?ver=3.9)
+23:39:29	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/fonts/glyphicons-halflings-regular.svg (from localhost/wordpress/wp-content/plugins/page-layout-builder/bootstrap/css/bootstrap.css?ver=3.9)
+23:39:30	Warning: 	File not parsed, looks like binary: localhost/wordpress/wp-content/themes/ifeature/cyberchimps/lib/fonts/fontawesome-webfont.ttf?v=4.0.3
+23:39:30	Warning: 	File not parsed, looks like binary: localhost/wordpress/wp-content/themes/ifeature/cyberchimps/lib/fonts/glyphicons-halflings-regular.ttf
+23:39:33	Warning: 	HTML file (0 bytes) retransferred due to lack of cache: localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php
+23:39:33	Error: 	"Not Found" (404) at link localhost/wordpress/wp-content/plugins/page-layout-builder/css/jqui/theme/images/fallback_moduleHeader.png (from localhost/wordpress/wp-content/plugins/page-layout-builder/css/jqui/theme/jquery-ui.css)
+23:39:33	Error: 	"Internal Server Error" (500) after 2 retries at link localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/subpages.php (from localhost/wordpress/wp-content/plugins/page-layout-builder/modules/subpages/)
 
-HTTrack Website Copier/3.48-1 mirror complete in 3 minutes 27 seconds : 947 links scanned, 898 files written (5925692 bytes overall) [3976063 bytes received at 19208 bytes/sec], 3133985 bytes transferred using HTTP compression in 675 files, ratio 26%, 10.0 requests per connection
-(27 errors, 68 warnings, 0 messages)
+HTTrack Website Copier/3.48-1 mirror complete in 4 minutes 20 seconds : 1064 links scanned, 1011 files written (7646278 bytes overall) [4975348 bytes received at 19135 bytes/sec], 4181281 bytes transferred using HTTP compression in 731 files, ratio 26%, 9.6 requests per connection
+(26 errors, 118 warnings, 0 messages)

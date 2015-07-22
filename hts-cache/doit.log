@@ -1,5 +1,5 @@
--q -%i -w http://192.168.93.146/wordpress/ -O "/home/a111/skncic/wpcp/tmp" -n -t -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2013], %s -->" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -%s -%u
-File generated automatically on Tue, 21 Jul 2015 22:38:51, do NOT edit
+-q -%i -w http://localhost/wordpress/ -O "/home/a111/skncic/wpcp/tmp2" -n -t -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2013], %s -->" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -%s -%u
+File generated automatically on Tue, 21 Jul 2015 23:35:13, do NOT edit
 
 To update a mirror, just launch httrack without any parameters
 The existing cache will be used (and modified)
